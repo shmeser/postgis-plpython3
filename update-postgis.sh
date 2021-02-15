@@ -4,6 +4,7 @@ set -e
 
 # Perform all actions as $POSTGRES_USER
 export PGUSER="$POSTGRES_USER"
+export PYTHONPATH="/usr/bin/python3"
 
 POSTGIS_VERSION="${POSTGIS_VERSION%%+*}"
 
